@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "603e209734040d4f4e4b1f72"
+  },
+  "name": "customer",
+  "address": {
+    "Street": "string",
+    "Building": "number",
+    "Flat_num": "number",
+    "City": "string",
+    "Country": "string",
+    "ZipCode": "number"
+  },
+  "phone_num": "number",
+  "email": "string",
+  "customers": [
+    "ObjectID"
+  ],
+  "glasses": [
+    "ObjectID('603e0af13404d4f4e4b1f72')"
+  ]
+}]
+
+[{
+  "_id": {
+    "$oid": "603e20ec34040d4f4e4b1f73"
+  },
+  "name": "nombre employee",
+  "glasses": [
+    "ObjectID('603e0af13404d4f4e4b1f72')"
+  ]
+}]
+
+[{
+  "_id": {
+    "$oid": "603e0af134040d4f4e4b1f6f"
+  },
+  "Brand": "Brand1",
+  "Left_calibration": "double",
+  "Right_calibration": "double",
+  "Frame_type": "type1",
+  "Frame_color": "color",
+  "Left_glass_color": "color",
+  "Right_glass_color": "color",
+  "Price": "eur"
+}]
+
+[{
+  "_id": {
+    "$oid": "603e13cb34040d4f4e4b1f71"
+  },
+  "name": "supplier",
+  "address": {
+    "Street": "string",
+    "Building": "number",
+    "Flat_num": "number",
+    "City": "string",
+    "Country": "string",
+    "ZipCode": "number"
+  },
+  "phone_num": "number",
+  "fax": "number",
+  "id_doc": "string",
+  "glasses": [
+    "ObjectID('603e0af134040d4f4e4b1f6f'"
+  ]
+}]
